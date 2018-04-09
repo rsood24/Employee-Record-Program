@@ -1,0 +1,89 @@
+*******************************************************
+*  Name      :  Ritesh Sood        
+*  Student ID:  105977937               
+*  Class     :  CSC 2421           
+*  Assignment:  Final Project               
+*  Due Date  :  November. 30, 2016
+*******************************************************
+
+
+                 Read Me
+
+
+*******************************************************
+*  Description of the program
+*******************************************************
+
+   This program creates a database which holds
+   records of individuals. It allows the user
+   to modify, add to or delete from these records
+
+*******************************************************
+*  Source files
+*******************************************************
+
+Name:  main.cpp
+   Main program.  This is the driver program that calls sub-functions
+   to read data from a user and pass it through the functions. Also where the 
+   class object is declared.
+
+Name:  Node.h
+   Holds the class definition of Node.  
+
+Name:  BSTree.h
+   Holds the class definition of the BSTree.
+
+Name:  BSTree.cpp
+   Holds the Implementation of the BSTree class.
+
+Name: Add-UpdateFuncs.cpp
+   Holds the functions for adding or updating an entry.
+
+Name: displayFuncs.cpp
+   Holds all the functions for Menu displays
+
+Name: Read-WriteFuncs.cpp
+   Holds the functions for reading and writing to file
+
+Name: searchFuncs.cpp
+   Holds the search functions
+
+*******************************************************
+*  Circumstances of programs
+*******************************************************
+
+   The program compiles and runs fine.
+
+*******************************************************
+*  How to build and run the program
+*******************************************************
+
+1. Uncompress the homework.  The homework file is compressed.  
+   To uncompress it use the following commands 
+       % unzip [Sood_Final]
+
+   Now you should see a directory named homework with the files:
+        main.cpp
+        Node.h
+        BSTree.h
+        BSTree.cpp
+	Add-UpdateFuncs.cpp
+	displayFuncs.cpp
+	Read-WriteFuncs.cpp
+	searchFuncs.cpp
+        makefile
+        Readme.txt
+
+2. Build the program.
+
+    Change to the directory that contains the file by:
+    % cd [Sood_Final] 
+
+    Compile the program by:
+    % make
+
+3. Run the program by:
+   % ./[database]
+
+4. Delete the obj files, executables, and core dump by
+   %./make clean
